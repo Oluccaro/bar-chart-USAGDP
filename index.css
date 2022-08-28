@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #title{
+    color: white;
+  }
+  .bar:hover{
+    fill: goldenrod;
+  }
+  #container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    width: 100vw;
+    height: 100vh; 
+    margin: auto;
+  }
+  .tooltip-class{
+    height: 50px;
+    width: 200px;
+    flex: display;
+    color: white;
+    padding: 3px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-80%;
+    margin: auto;
+    border-radius: 5px;
+  }
+  #x-axis{
+    font: 18px sans-serif;
+    color: steelblue;
+  }
+  
+  #y-axis{
+    font: 18px sans-serif;
+    color: steelblue;
+  }
+  #data-text{
+    margin: auto;
+  }
+  #bar-chart{
+    padding: 30px;
+    background-color: #292929;
+    box-shadow: 5px 5px 10px steelblue;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  #title,#chart{
+    margin:auto
+  }         
